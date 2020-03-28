@@ -10,4 +10,7 @@ syntax on
 
 set wrap
 
+set path=**
+
+set wildmenu
 
