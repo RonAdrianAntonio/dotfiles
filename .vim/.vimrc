@@ -17,7 +17,8 @@ set wildmenu
 
 
 " vim plug
-call plug#begin('~/.vim/pluged')
+call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/junegunn/fzf'
 Plug 'https://github.com/frazrepo/vim-rainbow'
+call plug#end()
