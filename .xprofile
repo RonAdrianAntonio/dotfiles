@@ -1,0 +1,12 @@
+#!/bin/bash
+
+feh --bg-fill ~/.wallpaper ~/.wallpaper
+#picom --config ~/.config/picom/picom.conf &
+picom &
+export TERMINAL=alacritty
+# export QT_STYLE_OVERRIDE=Material-Black-Blueberry
+export QT_QPA_PLATFORMTHEME=gtk2
+# export GTK_THEME=Material-Black-Blueberry
+
+./.redshift/redshift.sh
+
