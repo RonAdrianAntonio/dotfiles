@@ -9,5 +9,4 @@ if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]
     exec startx
 fi
 
-export PATH=$PATH:/home/leenooks/.local/bin 
-
+./.bash_path
